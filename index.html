@@ -34,7 +34,82 @@
 </style>
     <title>Fruit Burst</title>
 </head>
-<body>
-    
+<body class="font-poppins">
+    <header class="md:container md:mx-auto m-60">
+        <nav class="bg-orange-500 text-white rounded-full">  
+          <div class="navbar">
+            <div class="flex-1">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+              </div>
+              <img src="images/logo.png" alt="img">
+              <a class="btn btn-ghost normal-case text-4xl">Fruit Burst</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal text-lg text-white px-1">
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+              </ul>
+            </div>
+            <div class="mx-auto rounded-full">
+              <input type="text text-[#121212] rounded-full" placeholder="Search here">
+              <i class="fa-solid fa-magnifying-glass text-[#646060]"></i>
+            </div>
+          </div>
+        </nav>
+
+        <div class="my-24">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="/images/banner1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle  bg-black text-white">❮</a>
+                    <div class="text-center">
+                      <h2 class="text-white text-6xl font-extrabold">Exotic tastes at your <br>doorstep</h2>
+                      <p><button class="btn bg-fruits text-white my-10">Shop Now</button></p>
+                    </div>
+                    <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="/images/banner2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle  bg-black text-white">❮</a> 
+                    <div class="text-center">
+                      <h2 class="text-white text-6xl font-extrabold">Exotic tastes at your <br>doorstep</h2>
+                      <p><button class="btn bg-fruits text-white my-10">Shop Now</button></p>
+                    </div>
+                    <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="/images/banner3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle  bg-black text-white">❮</a> 
+                    <div class="text-center">
+                      <h2 class="text-white text-6xl font-extrabold">Exotic tastes at your <br>doorstep</h2>
+                      <p><button class="btn bg-fruits text-white my-10">Shop Now</button></p>
+                    </div>
+                    <a href="#slide4" class="btn btn-circle  bg-black text-white">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="/images/banner4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle  bg-black text-white">❮</a> 
+                    <div class="text-center">
+                      <h2 class="text-white text-6xl font-extrabold">Exotic tastes at your <br>doorstep</h2>
+                      <p><button class="btn bg-fruits text-white my-10">Shop Now</button></p>
+                    </div>
+                    <a href="#slide1" class="btn btn-circle  bg-black text-white">❯</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </header>
 </body>
 </html>
